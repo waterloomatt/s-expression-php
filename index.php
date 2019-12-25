@@ -16,7 +16,7 @@ spl_autoload_register();
 
 /**
  * Register expression handlers. The order in which they are registered does not matter.
- * They should be in the form of key => $value
+ * They should be in the form of $key => $value
  *  - $key should match a given function name from the input. Ex. `add`, `multiply`.
  *  - $value should be an object that implements the `Expression` interface.
  */
