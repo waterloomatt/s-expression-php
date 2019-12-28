@@ -10,9 +10,7 @@
  * @author Matt Skelton
  */
 
-// Simple autoloader
-set_include_path(get_include_path() . PATH_SEPARATOR . 'Expressions/');
-spl_autoload_register();
+require 'Autoloader.php';
 
 /**
  * Register expression handlers. The order in which they are registered does not matter.
