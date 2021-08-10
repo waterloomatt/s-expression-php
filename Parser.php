@@ -64,7 +64,7 @@ class Parser
 
     /**
      * Tokenize will split the input into a nested set of tokens.
-     * @return $this
+     * @return Parser
      */
     public function tokenize()
     {
